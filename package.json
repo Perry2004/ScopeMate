@@ -1,22 +1,21 @@
 {
-  "name": "scope-mate",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-ai": "tsx AIService.ts"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@types/node": "^22.14.1",
-    "dotenv": "^16.5.0",
-    "openai": "^4.93.0",
-    "puppeteer": "^24.6.1",
-    "tsx": "^4.19.3",
-    "typescript": "^5.8.3"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+	"name": "scope-mate",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev-ai": "tsx AIService.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"dotenv": "^16.5.0",
+		"openai": "^4.93.0",
+		"pdf-lib": "^1.17.1",
+		"puppeteer": "^24.6.1",
+		"tsx": "^4.19.3",
+		"typescript": "^5.8.3"
+	}
 }
